@@ -1,0 +1,253 @@
+@media screen and (max-width:1280px) {
+    .hat {
+        min-width: unset;
+        width: 100%;
+    }
+
+
+    .mainBlock {
+        display: grid;
+        grid-template-columns: 75% 20%;
+        justify-content: space-between;
+    }
+
+    .mainBlock #preview756 {
+        width: 100%;
+    }
+
+    .mainBlock #preview756 .zoom img {
+        width: 100%;
+        height: 450px;
+        object-fit: contain;
+    }
+
+    .width772 {
+        max-width: 100%;
+    }
+
+    .no-index {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 20% 70%;
+        grid-template-areas: "nav mainBlock";
+        width: 100% !important;
+    }
+
+    .no-index .wrap-content-left {
+        grid-area: mainBlock;
+    }
+
+    .no-index .left {
+        grid-area: nav;
+    }
+
+    .with-breadcrumbs {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .padding0088 {
+        width: 100%;
+    }
+
+    .width774 {
+        width: 100%;
+    }
+
+    .float-right {
+        float: unset;
+    }
+
+    .mainBlock #thumbnails {
+        height: 100%;
+        max-height: 450px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .footer ul {
+        width: 45%;
+        text-align: center;
+
+    }
+
+    .footer ul li {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer ul li span.h3 {
+        text-align: center;
+    }
+
+    .footer .h3 {
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:1100px) {
+    .hat {
+        height: 300px;
+        padding: 0 20px;
+        min-width: unset;
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "logo  tel"
+            "nav nav"
+        ;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: 30% 60%;
+    }
+
+
+    .center_emblem {
+        height: unset;
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:1000px) {
+    .showHide {
+        display: block;
+        position: fixed;
+        top: 320px;
+
+    }
+
+    .left {
+        width: 0;
+    }
+
+    .closeBtn {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .left div:nth-child(2) {
+        display: none;
+
+    }
+
+    .left div:nth-child(2).show {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        /* background-color: red; */
+        z-index: 9;
+        margin: 0;
+        background-color: rgba(5, 6, 6, 0.525);
+        backdrop-filter: blur(4px);
+
+    }
+
+    .left div:nth-child(2).show {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+
+    }
+
+    .linksNavbar {
+        max-height: 90vh;
+        background: linear-gradient(160deg, rgb(2, 63, 49) 0%, rgb(1, 137, 108) 100%);
+        width: 100%;
+        max-width: 450px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 10px;
+        overflow-y: scroll;
+    }
+
+    .left div:nth-child(2).show a,
+    .left div:nth-child(2).show span {
+        color: #fff;
+        padding-left: 5%;
+        max-width: 100%;
+        height: 100%;
+        width: 450px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .left div:nth-child(2).show span {
+        margin: 0;
+        padding: 10px 5%;
+    }
+
+    .left div:nth-child(2).show a p {
+        display: inline;
+    }
+
+
+    .no-index {
+        grid-template-columns: 0% 90%;
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .width772 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .with-breadcrumbs {
+        grid-template-columns: 85%;
+    }
+
+    .no-index {
+        grid-template-columns: 0% 100%;
+    }
+
+    .mainBlock{
+        grid-template-columns: 95%;
+        justify-content: center;
+        
+    }
+    .mainBlock #thumbnails{
+        width: 100%;
+        height: 150px;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainBlock #thumbnails ul{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        width: 100%;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .with-breadcrumbs {
+        grid-template-columns: 78%;
+    }
+
+    
+}
